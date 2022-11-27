@@ -1,0 +1,23 @@
+Bir maven project olustur
+Java kodlarini yaz, mesela hesap makinasi islemlerini yapan bir class olustur.
+Cok faydali methodlari olan bir class olsun.
+Herkesin isine yarayacak guzel methodlar icerdigini dusunelim.
+Tam jar'lamalik bir calisma olmus yani.
+Ilkel yontemlerle jar'lamayi ogrenmis ve o JAR'i import edip kullanmistik.
+
+Simdi sira ayni islemi daha modern yollarla maven ile yapmaya geldi.
+Elimizdeki maven projectinde terminale "mvn clean verify" yazalim
+Bu komut bir maven komutudur.
+Turuncu renkte target dosyasi olusturur.Icinde olusturulmus JAR file de icerir.
+Olusan bu JAR file'i bilgisayarimizdaki .m2 isimli directory'e install eder
+.m2 dosyasi nedir peki?
+Tum maven dependencylerimizi depoladigimiz ve ihtiyacimiz oldugunda dependecyleri pom.xml'de kullanabilmemiz icin depodur/repositorydir.
+
+Kendi olusturdugumuz bir maven project'i "mvn clean install" komutu ile
+ya da
+internetten aldigimiz hazir maven dependencyleri(birer maven projectleri)
+pom.xml'de 1 kez dahi kullanmis olalim, otomatik olarak .m2 repository'sine depolanirlar.
+Herhangi bir projede herhangi bir pom.xml'de kullanmamiz dahi yeterlidir.
+
+Diyelim ki, bilgisayarimizda 10 tane  maven projectimiz olsun, her birinin pom.xml'i
+ayni. her proje .m2 repository'e gider ve ordan ihtiyaci duydugu dependency'i kullanir
