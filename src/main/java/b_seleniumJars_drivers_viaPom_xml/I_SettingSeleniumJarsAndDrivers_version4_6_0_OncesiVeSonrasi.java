@@ -41,9 +41,9 @@ public class I_SettingSeleniumJarsAndDrivers_version4_6_0_OncesiVeSonrasi
 
         //MAVEN projesinde ise chrome driver icin WebDriverManager kullaniriz
         //WebDriverManager Abstract Class'i "bonigarcia" dependency'sinden geliyor
-        WebDriverManager.chromedriver().setup();//selenium 4.0.6 oncesi version kullaniyorsak, bu satiri yazmak zorundayiz
+        WebDriverManager.chromedriver().setup();//selenium 4.6.0 oncesi version kullaniyorsak, bu satiri yazmak zorundayiz
 
-       // WebDriverManager.chromedriver().driverVersion("106.0.5249.61").setup();
+       //WebDriverManager.chromedriver().driverVersion("106.0.5249.61").setup();
         //kendi browser'imizin ust version'unu yazarsak launch etmez
 
 
