@@ -1,0 +1,34 @@
+
+CssSelector'un farkli kullanimlarini kod yazarak pratik etmistik.
+Ama daha farkli kullanimlari mevcuttur.
+
+
+Sibling-kardes olan elementleri locate edebilmek icin bazi ozel kullanimlar mevcuttur.
+
+
+
+
+        first-child      - first child
+        last-child       - last child
+        nth-child()      - n. child
+        nth-last-child() - sondan n. child
+
+
+        #month>option+option+option
+        #month>option:nth-child(3)
+        #month>*:nth-child(3)
+        #month>:nth-child(3)
+        #month>:nth-last-child(10)
+        #month>:last-child
+        #month> option[selected='1'] +option
+
+
+        first-of-type
+        last-of-type
+        nth-of-type()
+
+        form#reg>input:first-of-type
+        form#reg>input:last-of-type
+        form#reg>input:nth-of-type(6)
+
+         */
