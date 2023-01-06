@@ -125,9 +125,10 @@ public class j_UsageOf_FindElements_Method extends IO_Operations_DosyaOkumaYazma
          readTheTxtFile();
 
          //elimizdeki txt file'in path'ine bakar ve siler
-         deleteTheTxtFile();
+        // deleteTheTxtFile();
 
 
+         
 
     }
 
